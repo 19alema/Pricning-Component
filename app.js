@@ -13,7 +13,7 @@ function toggleCircle() {
     // CALCULATE BILLING
     if (toggle.classList.contains('move-circle')) {
         billType.innerText = `/Yearly`;
-        billShow.innerText = `$${slider.value * 12}.00`;
+        billShow.innerText = `$${slider.value * 12 * 0.25}.00 `;
         toggle.style.backgroundColor = "hsl(174, 86%, 45%)"
 
     } else {
