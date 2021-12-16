@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <!-- CSS FILES -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="main-title">
+      <h2>Simple, traffic-based pricing</h2>
+      <p>Sign-up for our 30-day trial. No credit card required</p>
+    </div>
+    <section>
+      <article class="header">
+        <div class="title">
+          <p class="para title-para">100 Pageviews</p>
+          <div class="input">
+            <input type="range" name="range" id="slider" min="0" max="100" value="16">
+            <div class="selector">
+              <div class="selector-btn"></div>
+              <div class="slidervalue"></div>
+            </div>
+          </div>
+          <div class="bill">
+            <h1 class="bill-show">
+              $16.00
+            </h1>
+            <span class="bill-type">/Monthly</span>
+          </div>
+        </div>
+        <div class="pricing">
+          <p class="para">Monthly Billing</p>
+          <div class="toggle">
+            <div class="toggle-circle"></div>
+          </div>
+          <p class="para">Yearly Billing</p>
+          <span class="discount">25% <span class="bill-discount">discount</span></span>
+        </div>
+      </article>
+      <hr />
+      <article class="footer">
+        <div>
+            <div class="article-text">
+              <img src="images/icon-check.svg" alt="check-icon">
+              <p class="para">Unlimited websites</p>
+            </div>
+            <div class="article-text">
+              <img src="images/icon-check.svg" alt="check-icon">
+              <p class="para">100% data ownership</p>
+            </div>
+            <div class="article-text">
+              <img src="images/icon-check.svg" alt="check-icon">
+              <p class="para">Email reports</p>
+            </div>
+        </div>
+        <div class="artcle-btn">
+          <button class="btn">Start my trial</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+
+  <!-- Simple, traffic-based pricing
+  Sign-up for our 30-day trial. No credit card required. 
+
+  Pageviews
+  $ /month
+
+  Monthly Billing
+  Yearly Billing 25% discount
+
+  Unlimited websites
+  100% data ownership
+  Email reports
+
+  Start my trial -->
+  
+  <script src="app.js"></script>
+</body>
+</html>
